@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+    <script>
+        window.onload = function(){
+            setInterval(clockPainting, 1000);
+        }
+    </script>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт web-сдудії "Web-DECO"</title>
     <!-- ================= JavaScript ================= -->
+    <script src="js/clock1.js"></script>
     <script type="text/javascript">
         function send(){
             var valid = true;
@@ -46,7 +52,8 @@
         <a href="#">Зареєстровані</a> &nbsp;&nbsp;
         </b>
         </fond>
-    </td> </tr> <tr> <td width="30%" valign=" top">
+    </td> </tr> <tr> <td width="30%" valign="top">
+        <center><cavas id="canvas" height="120" width="120" ></cavas></center>
         <font size="5">
             <ul>
                 <li><a herf="#">Сайт будіівельної компанії</a></li>
